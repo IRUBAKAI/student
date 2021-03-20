@@ -1,0 +1,345 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poiret+One&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="slick.min.js"></script>
+</head>
+<body>
+<header>
+    <nav class="nav-extended">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Logo</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">JavaScript</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+    </ul>
+
+    <div class="header_content">
+        <div class="container">
+            <div class="row">
+                <div class="col m6 s12">
+                    <img src="images/header_bg.png" alt="" class="header_bg_img">
+                </div>
+                <div class="col m6 s12">
+                    <h3 class="discount">Набор столовых приборов</h3>
+                    <div id="timer">
+                        <div class="hours"></div>
+                        <div class="minutes"></div>
+                        <div class="seconds"></div>
+                    </div>
+                    <form action="" class="center_name_phone">
+                        <label for="name"> Ваше имя*
+                            <input id="name" placeholder="Иван Иванов" name="name" type="text">
+                        </label>
+                        <label for="phone"> Ваш телефон*
+                            <input id="phone" placeholder="+380" name="phone" type="text">
+                        </label>
+                        <input type="submit" value="Отправить" class="header_submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="product">
+    <div class="container">
+        <div class="row">
+            <div class="col m4 s12">
+                <div class="slider-for">
+                    <img src="images/carousel/1/1.jpg" alt="carousel">
+                    <img src="images/carousel/1/2.jpg" alt="carousel">
+                    <img src="images/carousel/1/3.jpg" alt="carousel">
+                    <img src="images/carousel/1/4.jpg" alt="carousel">
+                    <img src="images/carousel/1/5.jpg" alt="carousel">
+                </div>
+                <div class="slider-nav">
+                    <img src="images/carousel/1/1.jpg" alt="carousel">
+                    <img src="images/carousel/1/2.jpg" alt="carousel">
+                    <img src="images/carousel/1/3.jpg" alt="carousel">
+                    <img src="images/carousel/1/4.jpg" alt="carousel">
+                    <img src="images/carousel/1/5.jpg" alt="carousel">
+                </div>
+                <p class="item_title art1">Черный набор</p>
+                <p class="item_subtitle"><span>В набор входит:</span> Вилка, нож, ложка
+                    столовая, ложка чайная.</p>
+     <div class="price_block">
+                    <!-- Modal Trigger -->
+                    <a class="waves-effect waves-light btn modal-trigger" data-art="001" href="#modal1">На 2 персоны (8шт)</a>
+                    <div class="price">
+                        <div class="new_price">1000p</div>
+                        <div class="old_price">3000p</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col m4 s12">
+                <div class="slider-for2">
+                    <img src="images/carousel/2/1.png" alt="carousel">
+                    <img src="images/carousel/2/2.png" alt="carousel">
+                    <img src="images/carousel/2/3.png" alt="carousel">
+                </div>
+                <div class="slider-nav2">
+                    <img src="images/carousel/2/1.png" alt="carousel">
+                    <img src="images/carousel/2/2.png" alt="carousel">
+                    <img src="images/carousel/2/3.png" alt="carousel">
+                </div>
+                <p class="item_title art2">Черный набор</p>
+                <p class="item_subtitle"><span>В набор входит:</span> Вилка, нож, ложка
+                    столовая, ложка чайная.</p>
+                <div class="price_block">
+                    <!-- Modal Trigger -->
+                    <a class="waves-effect waves-light btn modal-trigger" data-art="002" href="#modal1">На 2 персоны (8шт)</a>
+                    <div class="price">
+                        <div class="new_price">1000p</div>
+                        <div class="old_price">3000p</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col m4 s12">
+                <div class="slider-for3">
+                    <img src="images/carousel/3/1.png" alt="carousel">
+                    <img src="images/carousel/3/2.png" alt="carousel">
+                    <img src="images/carousel/3/3.png" alt="carousel">
+                    <img src="images/carousel/3/4.png" alt="carousel">
+                    <img src="images/carousel/3/5.jpg" alt="carousel">
+                </div>
+                <div class="slider-nav3">
+                    <img src="images/carousel/3/1.png" alt="carousel">
+                    <img src="images/carousel/3/2.png" alt="carousel">
+                    <img src="images/carousel/3/3.png" alt="carousel">
+                    <img src="images/carousel/3/4.png" alt="carousel">
+                    <img src="images/carousel/3/5.jpg" alt="carousel">
+                </div>
+                <p class="item_title art3">Черный набор</p>
+                <p class="item_subtitle"><span>В набор входит:</span> Вилка, нож, ложка
+                    столовая, ложка чайная.</p>
+                <div class="price_block">
+                    <!-- Modal Trigger -->
+                    <a class="waves-effect waves-light btn modal-trigger" data-art="003" href="#modal1">На 2 персоны (8шт)</a>
+                    <div class="price">
+                        <div class="new_price">1000p</div>
+                        <div class="old_price">3000p</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="video_review">
+   <div class="container">
+    <div class="row">
+        <div class="col m6 s12">
+            <video loop autoplay muted controls="none" src="video/2.mp4"></video>
+        </div>
+          <div class="col m6 s12">
+            <video loop autoplay muted controls="none" src="video/2.mp4"></video>
+        </div>
+    </div>
+    </div>
+</section>
+
+
+<div class="section">
+    <div class="container">
+           <h3 class="burger_question">
+               Часто задаваемые вопросы
+           </h3>
+           <h6>Здесь есть все ответы</h6>
+            <ul class="collapsible">
+    <li>
+      <div class="collapsible-header"><i class="material-icons"></i>First</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons"></i>Second</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons"></i>Third</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+  </ul>
+        </div>
+    </div>
+    
+    <section id="security">
+        <div class="container">
+        <h3 class="burger_question">
+            Политика безопасности клиента
+           </h3>
+           <h6>Мы заботимся о наших клиентах, минимизируя все возможные риски
+
+</h6>
+        <div class="cards">
+        
+        <div class="card">
+           <i class="fas fa-box-open"></i>
+            <p>Быстрая и безопасная доставка</p>
+            <i class="fas fa-arrow-circle-down"></i>
+        </div>
+        <div class="card">
+            <i class="fas fa-credit-card"></i>
+            <p>Безопасная оплата</p>
+            <i class="fas fa-arrow-circle-down"></i>
+        </div>
+        <div class="card">
+            <i class="fas fa-medal"></i>
+            <p>Оригинальная продукция</p>
+            <i class="fas fa-arrow-circle-down"></i>
+        </div>
+        
+        </div>
+        
+        </div>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    <section id="review">
+    <div class="container">
+            <h3 class="burger_question">Отзывы клиентов</h3>
+            <h6>4000+ довольных покупателей</h6>
+        <div class="multiple-items">
+          <div><img src="images/reviews/1.png" alt=""></div>
+          <div><img src="images/reviews/2.png" alt=""></div>
+          <div><img src="images/reviews/3.png" alt=""></div>
+          <div><img src="images/reviews/4.png" alt=""></div>
+          <div><img src="images/reviews/5.png" alt=""></div>
+          <div><img src="images/reviews/6.png" alt=""></div>
+          <div><img src="images/reviews/7.png" alt=""></div>
+          <div><img src="images/reviews/8.png" alt=""></div>
+          <div><img src="images/reviews/9.png" alt=""></div>
+          <div><img src="images/reviews/10.png" alt=""></div>
+          <div><img src="images/reviews/11.png" alt=""></div>
+          <div><img src="images/reviews/12.png" alt=""></div>
+          <div><img src="images/reviews/13.png" alt=""></div>
+          <div><img src="images/reviews/14.png" alt=""></div>
+          </div>
+
+    </div>
+    </section>
+
+    <section id="tutorial">
+        <div class="container">
+            <h3 class="burger_question">Как заказать столовые приборы Cutlery Set?</h3>
+            
+             <div class="cards">
+
+                <div class="card">
+                  <h5>Шаг 1</h5>
+                   <i class="fas fa-pen-square"></i>
+                    <p>Оставляете заявку на сайте.</p>
+                </div>
+                <div class="card">
+                   <h5>Шаг 2</h5>
+                   <i class="fas fa-headphones"></i>
+                    <p>Наш менеджер уточняет детали заказа</p>
+                </div>
+                <div class="card">
+                   <h5>Шаг 3</h5>
+                    <i class="fas fa-truck"></i>
+                    <p>Доставляем ваш товар от 3 до 14 дней</p>
+                </div>
+                <div class="card">
+                   <h5>Шаг 4</h5>
+                    <i class="fas fa-suitcase-rolling"></i>
+                    <p>Оплачиваете при получении на почте</p>
+                </div>
+        
+        </div>
+        </div>
+    </section>
+
+
+    <section id="question">
+        <div class="container visible">
+           <div class="row">
+            <div class="col m6 s12">
+             <h3 class="discount">Остались вопросы?</h3>
+              <form action="" class="center_name_phone">
+                        <label for="name" class="name"> Ваше имя*
+                            <input id="name" placeholder="Иван Иванов" name="name" type="text" required>
+                        </label>
+                        <label for="phone"> Ваш телефон*
+                            <input id="phone" placeholder="+380" name="phone" type="text" required>
+                        </label>
+                        <input type="submit" value="Отправить" class="header_submit">
+                    </form>
+            </div>
+             <div class="col m6 s12">
+                <div class="single-item">
+                    <img src="images/footer/1.png" alt="">
+                    <img src="images/footer/2.png" alt="">
+                    <img src="images/footer/3.png" alt="">
+                    <img src="images/footer/4.png" alt="">
+                    <img src="images/footer/5.png" alt="">
+                </div>
+            </div>
+            </div>
+        </div>
+            </section>
+
+        <footer id="politic">
+           <div class="container">
+            <p>г. Москва, пр-кт Кутузовский, 36 ст.12, индекс 121170 <br> ИНН 503219323509 / ОГРН 318505300124603 <br> Телефон: 8 (495) 227-35-37 | E-mail: office@krazrest.ru</p>
+            <a href="https://cutlery-set.deliverygoods.ru/ru/policy.html">Политика конфиденциальности</a>
+            </div>
+        </footer>
+
+
+
+
+
+
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <h4>Форма заказа</h4>
+        <h5 id="articule"></h5>
+        <form action="" method="post">
+            <label for="name">Имя*
+                <input id="name" name="name" type="text">
+            </label>
+            <label for="phone">Телефон*
+                <input id="phone" name="phone" type="text">
+            </label>
+            <input name="art" id="art" type="hidden">
+        </form>
+    </div>
+    <div class="modal-footer">
+        <input type="submit" class="modal-close waves-effect waves-green btn-flat" value="Оставить заявку">
+    </div>
+</div>
+<script src="timer.js"></script>
+<script src="js/main.js"></script>
+<script src="js/all.js"></script>
+</body>
+</html>

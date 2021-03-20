@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Arimo", sans-serif;
+}
+.title {
+    font-family: "Poiret One" cursive;
+}
+.discount {
+    font-family: "Poiret One" cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: 100;
+    font-size: 44px;
+}
+.discount:after {
+    content: 'со скидкой 45%';
+    font-family: 'Poiret one'
+}
+.center_name_phone {
+    text-align: center;
+}
+.header_submit {
+    margin-top: 20px;
+    padding: 15px 200px;
+    border-radius: 50px;
+}
+.header_submit:hover {
+    background-color: #000;
+    color: #fff;
+}
+#question .header_submit {
+    padding: 15px 150px;
+}
+.header_bg_img {
+    width: 100%;
+}
+#timer {
+    display: flex;
+    font-size: 45px;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.hours:after, .minutes:after {
+    content: ':';
+}
+.price_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.old_price {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+.item_title {
+  display: flex;
+    justify-content: space-between;
+}
+.art1:after {
+    opacity: 0.6;
+    content: "Артикуль 1";
+}
+.art2:after {
+    opacity: 0.6;
+    content: "Артикуль 2";
+}
+.art3:after {
+    opacity: 0.6;
+    content: "Артикуль 3";
+}
+
+section {
+    margin: 50px 0;
+}
+
+video {
+    width: 100%;
+}
+.burger_question {
+    text-align: center;
+    margin: 10px;
+}
+h6 {
+    text-align: center;
+    color: gray;
+    padding: 20px;
+    opacity: 0.8;
+}
+h3 {
+    font-family: 'Poiret one';
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.card {
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    border: 2px solid gray;
+    font-size: 24px;
+    font-weight: bold;
+}
+.fa-box-open, .fa-credit-card, .fa-medal {
+    font-size: 44px;
+    margin: 10px;
+}
+.fa-arrow-circle-down {
+    font-size: 30px;
+    margin-top: 20px;
+}
+.slick-prev, .slick-next {
+    position: absolute;
+    bottom: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    z-index: 1;
+    overflow: hidden;
+}
+.slick-next {
+    right: 0;
+}
+.multiple-items img{
+    width: 100%;
+}
+#tutorial .cards .card {
+    background-color: #ee6e73;
+    color: #fff;
+    width: 220px;
+    margin-top: 30px;
+    border: none;
+}
+#tutorial .cards .card p {
+    font-size: 15px; 
+    font-weight: 100;
+}
+.fa-pen-square, .fa-headphones, .fa-truck, .fa-suitcase-rolling {
+    font-size: 44px;
+    margin: 30px 0px 30px 0px;
+}
+#question .visible {
+    z-index: 1;
+}
+#question {
+    position: relative;
+    display: flex;
+    margin: 80px 0 80px 0;
+    padding: 50px;
+    background-image: url(../images/footer/5.png);
+    color: #fff;
+}
+#question:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#question .discount:after {
+    content: "Наши менеджеры ответят на них";
+    font-size: 19px;
+}
+#politic{
+    font-size: 15px;
+    font-family: 'Arimo';
+    background-color: #ee6e73;
+    color: #fff;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+#politic a {
+    color: #fff;
+}
+#question #name, #phone {
+    color: #fff;
+}
